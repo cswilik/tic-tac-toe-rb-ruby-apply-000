@@ -128,5 +128,5 @@ end
 end 
 
 def play(board)
-  if won?(board)
-    puts ""
+  until over?(board)
+  
