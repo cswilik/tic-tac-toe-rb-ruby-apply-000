@@ -121,8 +121,6 @@ end
 
 def play(board)
   i = 0 
-  while i < 9 
-  turn(board)
-  i += 1 
-end
-end
+  while 1 < 9 
+  turn(board) 
+  
