@@ -126,3 +126,7 @@ def play(board)
   i += 1 
 end
 end 
+
+def play(board)
+  if won?(board)
+    puts ""
