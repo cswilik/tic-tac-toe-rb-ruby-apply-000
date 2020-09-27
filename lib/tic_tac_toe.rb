@@ -125,9 +125,4 @@ def play(board)
   turn(board)
   i += 1 
 end
-end 
-
-def play(board)
-  until over?(board) 
-  turn(board) 
-end 
+end
